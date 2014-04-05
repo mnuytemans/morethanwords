@@ -1,2 +1,6 @@
 RemoteSystemsTempFiles
 .settings/
+.metadata/
+build/
+Servers/
+*~
