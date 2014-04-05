@@ -9,6 +9,8 @@
 <body>
 
 
+
+
 	<h1>Messages to be sent after your death.</h1>
 
 	<table border="1px" cellpadding="10px">
