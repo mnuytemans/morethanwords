@@ -43,7 +43,7 @@ public class MessageSender {
 			mimemessage.setFrom(new InternetAddress(username));
 			mimemessage.setRecipients(MimeMessage.RecipientType.TO,
 				InternetAddress.parse(message.getRecipient()));
-			mimemessage.setSubject("A message from the afterlifeb");
+			mimemessage.setSubject("A message from the afterlife");
 			mimemessage.setText(message.getMessage());
  
 			Transport.send(mimemessage);

@@ -25,7 +25,7 @@ public class MessageDao {
 		session.save(message);
 		
 		t.commit();
-		session.clear();
+		session.close();
 	}
 	
 	public List<Message> listMessages(){

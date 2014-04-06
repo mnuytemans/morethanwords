@@ -61,6 +61,14 @@
         <h1>Your messages</h1>
       </div>
       <div class="row">
+      <%
+      List<Message> messages = MessageDao.getInstance().listMessages();
+      if (messages.isEmpty()) {%>
+      <h2>No messages.</h2>
+      <% }else{ 
+    	  
+        for (Message message: messages){
+        %>
         <table class="table">
           <thead>
             <tr>
@@ -72,12 +80,7 @@
             </tr>
           </thead>
           <tbody>
-          
-          <%
-          
-          List<Message> messages = MessageDao.getInstance().listMessages();
-          for (Message message: messages){
-          %>
+
           
             <tr>
               <td><input type="checkbox" name="selected" value="<%=message.getId()%>"></td>
@@ -87,14 +90,16 @@
               <td><a href="editMessage?id=<%=message.getId()%>">Edit</a></td>
             </tr>
             
-          <%}%>  
             
           </tbody>
         <table>
+    
+    <input type="submit" name="delete" value="delete selected Messages" /> <br/>
+    <%}}%>  
 
     </div><!-- /.container -->
     
-    <input type="submit" name="delete" value="delete selected Messages" />
+    <a href="newMessage.jsp">new Message</a>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
