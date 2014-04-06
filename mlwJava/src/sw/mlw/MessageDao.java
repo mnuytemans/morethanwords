@@ -1,6 +1,8 @@
 package sw.mlw;
 
 
+import java.util.List;
+
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
@@ -23,7 +25,15 @@ public class MessageDao {
 		session.save(message);
 		
 		t.commit();
-		
+		session.clear();
+	}
+	
+	public List<Message> listMessages(){
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		@SuppressWarnings("unchecked")
+		List<Message> messages = session.createCriteria(Message.class).list();
+		session.close();
+		return messages;
 	}
 
 }
