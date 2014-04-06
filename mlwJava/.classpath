@@ -10,6 +10,11 @@
 	<classpathentry kind="output" path="bin"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container" exported="true"/>
+	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/javax.mail/mail/1.4.1/805fab433b5ea319373a5dcb133b48633ad898b1/mail-1.4.1-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/javax.mail/mail/1.4.1/8b7bc69010655425dabf091b51d1e90b4de36715/mail-1.4.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/javassist/javassist/3.12.1.GA/cc64c85182743e0e8166cfc072a4359e54bbc7e9/javassist-3.12.1.GA-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/javassist/javassist/3.12.1.GA/526633327faa61aee448a519e8a4d53ec3057885/javassist-3.12.1.GA.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
@@ -45,17 +50,17 @@
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-catalina/7.0.47/fb86c8eb570cd14517b2847fc2da404958aeb92a/tomcat-catalina-7.0.47-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-catalina/7.0.47/12a1630cae52dfb3203c9f2395c6751f7a960430/tomcat-catalina-7.0.47.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
 	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.1.2/4e00791e2808d648c5f519fea019016edfba6fe7/jstl-1.1.2-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.1.2/3375e43c620df4f1114959400ff9bb90d12a2feb/jstl-1.1.2.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
@@ -86,31 +91,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/javax.transaction/jta/1.1/d5dad66d06246bd2e1e369cebff27faa9beb065a/jta-1.1-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/javax.transaction/jta/1.1/2ca09f0b36ca7d71b762e14ea2ff09d5eac57558/jta-1.1.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-servlet-api/7.0.47/b1ac530f5edc374c22fa7bcac12ce13359dec2f9/tomcat-servlet-api-7.0.47-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-servlet-api/7.0.47/346360350e369f894a08e9de77f4d9f0139e7007/tomcat-servlet-api-7.0.47.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/7.0.47/ebb226a48375ef922eb2f44567c840f8f52c7b76/tomcat-juli-7.0.47-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/7.0.47/dad48969c18899fc02ed38a423d8b54ba78487d0/tomcat-juli-7.0.47.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-annotations-api/7.0.47/d5e249ed38457f740382a2b93d5ce0cc20c64744/tomcat-annotations-api-7.0.47-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-annotations-api/7.0.47/29951dcc214a5f2f8d685899fb7a81a1f0778883/tomcat-annotations-api-7.0.47.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-api/7.0.47/d8d55e332e17786d01170daf1aff7c768f91e44b/tomcat-api-7.0.47-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-api/7.0.47/baefb943f82079d3028433f4bb4936f44e61373d/tomcat-api-7.0.47.jar" exported="true">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-util/7.0.47/e9d07bf15f4689a7edb3061694d969bdc899fcf1/tomcat-util-7.0.47-sources.jar" kind="lib" path="/home/carlos/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-util/7.0.47/ca8f3694643ce50ecc0b883cb62fa1c0854603d1/tomcat-util-7.0.47.jar" exported="true">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
