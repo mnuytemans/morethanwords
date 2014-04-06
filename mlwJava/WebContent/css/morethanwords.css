@@ -40,3 +40,13 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.navbar-inverse {
+  background-color:##e3d9d5;
+  border-color:#080808
+}
+
+.jumbotron {
+  background-image: '../images/front-banner.jpg';
+
+}
