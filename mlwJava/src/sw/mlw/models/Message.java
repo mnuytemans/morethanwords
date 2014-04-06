@@ -2,21 +2,22 @@ package sw.mlw.models;
 
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Message")
+@Table(name = "Message")
 public class Message {
-	
+
 	private long id;
-	
+
 	private String recipient;
-	
+
 	private Date deliveryDate;
-	
+
 	private String message;
 
 	@Id
@@ -45,6 +46,7 @@ public class Message {
 		this.deliveryDate = deliveryDate;
 	}
 
+	@Column(columnDefinition = "text")
 	public String getMessage() {
 		return message;
 	}

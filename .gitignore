@@ -4,3 +4,4 @@ RemoteSystemsTempFiles
 build/
 Servers/
 *~
+.gradle/

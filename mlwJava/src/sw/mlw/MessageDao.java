@@ -1,6 +1,8 @@
 package sw.mlw;
 
+
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import sw.mlw.models.Message;
 
@@ -17,7 +19,10 @@ public class MessageDao {
 	public void addMessage(Message message){
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		
+		Transaction t =  session.beginTransaction();
 		session.save(message);
+		
+		t.commit();
 		
 	}
 
