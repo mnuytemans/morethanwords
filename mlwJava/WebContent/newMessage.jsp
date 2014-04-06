@@ -42,7 +42,7 @@
 
     <div class="container">
       <div class="page-header">
-        <h1>Create a message for a loved one</h1>
+        <h1>Create a message for a loved one.</h1>
       </div>
     <form role="form" action="listMessages.jsp" method="POST" >
       <input type="hidden" name="newmessage" value="1" />
